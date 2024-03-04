@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.25rem;
+    background-color: #eff2c0;
+}
+
+/* NAVIGATION BAR */
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar-img-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    background-color: #3f4739;
+    color: white;
+    height: 45px;
+}
+
+li{
+    padding: 0 1rem 0 1rem;
+}
+
+.search-button, .cart-button{
+    background-color: white;
+    border: none;
+    
+}
+
+.nav-select-products{
+    font-size: 1.2rem;
+    border: none;
+    background-color: #3f4739;
+    color: white;
+}
+
+ion-icon{
+    width: 50px;
+    height: 50px;
+    color: #3f4739;
+}
+
+/* INFO SECTION */
+.info-section{
+    background-image: url('../img/info-background-img.jpg');
+    background-size: cover;
+    color: white;
+    height: 40vh;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.info-title{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.info-text {
+    padding: 0 3rem;
+}
+
+/* NEW PRODUCTS */
+
+.new-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.new-product-img{
+    width: 400px;
+    height: 290px;
+    background-size: cover;
+}
+
+.small-text{
+    color: gray;
+    font-size: 0.75rem;
+}
+
+.quantity-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.quantity-buttons ion-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.less-quantity, .more-quantity{
+    border: none;
+    background: white;
+}
+
+.add-to-cart-button {
+    font-size: inherit;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    background-color: #3f4739;
+}
+
+.new-product-info{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 2rem;
+}
